@@ -1,0 +1,59 @@
+.whyOrder {
+  /* height: 560px; */
+  background-image: url(../../images/Bg-whyOrder.png);
+}
+
+.whyOrder h2 {
+  line-height: 50px;
+  text-align: center;
+  background-color: var(--color_btn_send_message_hover);
+  padding: 0 20px;
+  margin-top: 40px;
+  filter: drop-shadow(2px 3.464px 3.5px rgba(2, 68, 121, 0.75));
+  position: relative;
+}
+
+.whyOrder h2::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 18px solid var(--color_btn_send_message_hover);
+  border-right: 18px solid transparent;
+
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+}
+
+.whyOrder .header-p {
+  font-size: 16px;
+  color: #e9f7fe;
+  font-family: "Arial Narrow";
+  text-align: center;
+
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.whyOrder .card {
+  margin-bottom: 35px;
+}
+
+.whyOrder .card .number {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #ffffff;
+
+  font-size: 25px;
+  color: #1b7fd0;
+  font-weight: 700;
+  font-family: "Roboto_Bold";
+  text-align: center;
+}
+
+.whyOrder .card p {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Arial Narrow";
+}

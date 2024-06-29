@@ -1,0 +1,151 @@
+.essayWriting {
+  background-color: #f4f6fa;
+  background-image: url(../../images/Bg2.png);
+  background-repeat: no-repeat;
+}
+
+.essayWriting .img-container {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.essayWriting h2 {
+  line-height: 50px;
+  text-align: center;
+  background-color: var(--color_btn_send_message_hover);
+  padding: 0 20px;
+  margin-top: 40px;
+  filter: drop-shadow(2px 3.464px 3.5px rgba(2, 68, 121, 0.75));
+  position: relative;
+}
+
+.essayWriting h2::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 18px solid var(--color_btn_send_message_hover);
+  border-right: 18px solid transparent;
+
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+}
+
+.essayWriting .header-p {
+  font-size: 14px;
+  color: var(--color_p_text);
+  font-family: "Arial Narrow";
+  text-align: left;
+
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.essayWriting .cards {
+  text-align: center;
+  padding: 20px 15px;
+  margin-bottom: 65px;
+  position: relative;
+}
+
+.essayWriting .cards h4 {
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+
+.essayWriting .cards p,
+.essayWriting .cards ul {
+  text-align: justify;
+  font-size: 13px;
+  color: var(--color_p_text);
+  font-family: "Arial Narrow";
+}
+
+.essayWriting .cards p {
+  margin: 0;
+}
+
+.essayWriting .cards ul {
+  padding: 0;
+  margin-top: 5px;
+  list-style: none;
+}
+
+.essayWriting .card1 p,
+.essayWriting .card2 p,
+.essayWriting .card3 .p-container,
+.essayWriting .card4 .p-container {
+  height: 214px;
+  overflow: hidden;
+}
+
+.essayWriting .cards button {
+  width: 120px;
+  height: 35px;
+  background-color: #075da1;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--color_btn_text);
+  font-weight: 400;
+  font-family: "Roboto_Regular";
+  text-align: center;
+  border: none;
+
+  margin-top: 25px;
+}
+
+.cards {
+}
+
+.essayWriting .cards:hover {
+  background-color: var(--color_btn_text);
+}
+
+.essayWriting .cards:hover::after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  border-top: 27px solid var(--color_btn_text);
+  border-right: 37px solid transparent;
+
+  position: absolute;
+  bottom: -27px;
+  left: 0;
+}
+
+.essayWriting .card1 .img-container {
+  background-image: url(../../images/Element1.svg);
+}
+
+.essayWriting .card1:hover .img-container {
+  background-image: url(../../images/Element1_dark.svg);
+}
+
+.essayWriting .card2 .img-container {
+  background-image: url(../../images/Element2.svg);
+}
+
+.essayWriting .card2:hover .img-container {
+  background-image: url(../../images/Element2_dark.svg);
+}
+.essayWriting .card3 .img-container {
+  background-image: url(../../images/Element3.svg);
+}
+
+.essayWriting .card3:hover .img-container {
+  background-image: url(../../images/Element3_dark.svg);
+}
+.essayWriting .card4 .img-container {
+  background-image: url(../../images/Element4.svg);
+}
+
+.essayWriting .card4:hover .img-container {
+  background-image: url(../../images/Element4_dark.svg);
+}
