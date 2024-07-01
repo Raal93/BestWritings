@@ -189,3 +189,11 @@
   bottom: -18px;
   left: 0;
 }
+
+.promo .orderNow:hover {
+  background: var(--color_btn_order_now_hover);
+}
+
+.promo .orderNow:hover::after {
+  border-top: 18px solid var(--color_btn_order_now_hover);
+}

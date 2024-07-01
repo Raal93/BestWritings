@@ -1,0 +1,193 @@
+.howItWorks {
+  background-image: url(../../images/Bg1.svg);
+  background-repeat: no-repeat;
+  background-position: bottom -10% center;
+}
+
+.howItWorks h2 {
+  line-height: 50px;
+  text-align: center;
+  background-color: var(--color_btn_send_message_hover);
+  padding: 0 20px;
+  margin: 40px 0;
+  filter: drop-shadow(2px 3.464px 3.5px rgba(2, 68, 121, 0.75));
+  position: relative;
+}
+
+.howItWorks h2::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 18px solid var(--color_btn_send_message_hover);
+  border-right: 18px solid transparent;
+
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+}
+
+.howItWorks .orderNow-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.howItWorks .orderNow {
+  line-height: 40px;
+  width: 310px;
+  margin-top: 30px;
+  background-color: var(--color_btn_order_now);
+  color: var(--color_btn_text);
+  font-family: "Roboto_Regular";
+  text-transform: uppercase;
+  font-size: 26px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+
+  margin: 65px 0;
+}
+
+.howItWorks .orderNow::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 18px solid var(--color_btn_order_now);
+  border-right: 18px solid transparent;
+
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+}
+
+.howItWorks .orderNow:hover {
+  background: var(--color_btn_order_now_hover);
+}
+
+.howItWorks .orderNow:hover::after {
+  border-top: 18px solid var(--color_btn_order_now_hover);
+}
+
+.howItWorks .card-wrapper {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.howItWorks h4 {
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--color_btn_send_message);
+  font-weight: 500;
+  font-family: "Roboto_Bold";
+  margin: 0;
+
+  height: 65px;
+  border-bottom: 2px solid #caddea;
+  position: relative;
+  z-index: 1;
+}
+
+.howItWorks .card-wrapper:hover h4::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 32.5px solid transparent;
+  border-bottom: 32.5px solid transparent;
+  border-left: 25px solid var(--color_btn_send_message);
+
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: -25px;
+  z-index: 1;
+}
+
+.howItWorks h4 span {
+  font-size: 59px;
+  line-height: 51px;
+  text-transform: uppercase;
+  color: var(--color_btn_send_message_hover);
+  font-weight: 700;
+  font-family: "Roboto_Bold";
+  text-align: center;
+  margin: 0 15px 0 25px;
+}
+
+.howItWorks .card {
+  filter: drop-shadow(2px 3.464px 3.5px rgba(167, 192, 200, 0.75));
+  background-color: var(--color_btn_text);
+  padding: 20px 40px;
+
+  display: none;
+}
+
+.howItWorks .card h6 {
+  font-size: 16px;
+  line-height: 18px;
+  color: #0983e5;
+  font-family: "Arial Narrow";
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.howItWorks .card p {
+  font-size: 16px;
+  color: var(--color_p_text);
+  font-family: "Arial Narrow";
+  text-align: justify;
+  margin: 0;
+}
+
+.howItWorks .card-wrapper .img-icon {
+  width: 120px;
+  height: 120px;
+  min-height: 120px;
+  border-radius: 50%;
+  background-color: #c9dde9;
+  margin-bottom: 20px;
+}
+
+.howItWorks .card-wrapper:hover h4 {
+  background-color: var(--color_h4);
+  color: var(--color_btn_text);
+}
+
+.howItWorks .card-wrapper:hover .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 460px;
+  height: 415px;
+  position: absolute;
+  right: -460px;
+  overflow: hidden;
+}
+
+.howItWorks .wrap1:hover .card {
+  top: -5px;
+}
+
+.howItWorks .wrap2:hover .card {
+  top: -70px;
+}
+
+.howItWorks .wrap3:hover .card {
+  top: -135px;
+}
+
+.howItWorks .wrap4:hover .card {
+  top: -200px;
+}
+
+.howItWorks .wrap5:hover .card {
+  top: -265px;
+}
+
+.howItWorks .wrap6:hover .card {
+  top: -330px;
+}
