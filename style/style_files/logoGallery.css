@@ -1,0 +1,58 @@
+.logo-gallery {
+  background-color: #caddea;
+}
+
+.logo-gallery .creditCards {
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo-gallery .creditCards img {
+  height: 45px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.logo-gallery .mediaIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo-gallery .mediaIcons div {
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+
+.media1 {
+  background-image: url("../../images/Facebook.svg");
+}
+
+.media1:hover {
+  background-image: url("../../images/Facebook2.svg");
+}
+
+.media2 {
+  background-image: url("../../images/Twiter.svg");
+}
+
+.media2:hover {
+  background-image: url("../../images/Twiter2.svg");
+}
+
+.media3 {
+  background-image: url("../../images/Pinterest.svg");
+  margin-right: 110px;
+}
+
+.media3:hover {
+  background-image: url("../../images/Pinterest2.svg");
+}
