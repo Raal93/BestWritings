@@ -1,5 +1,5 @@
 .logo-gallery {
-  background-color: #caddea;
+  background-color: var(--color_btn_send_message_hover);
 }
 
 .logo-gallery .creditCards {
@@ -24,35 +24,35 @@
 }
 
 .logo-gallery .mediaIcons div {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   margin-left: 50px;
   background-repeat: no-repeat;
   background-position: center center;
   cursor: pointer;
 }
 
-.media1 {
+.logo-gallery .media1 {
   background-image: url("../../images/Facebook.svg");
 }
 
-.media1:hover {
+.logo-gallery .media1:hover {
   background-image: url("../../images/Facebook2.svg");
 }
 
-.media2 {
+.logo-gallery .media2 {
   background-image: url("../../images/Twiter.svg");
 }
 
-.media2:hover {
+.logo-gallery .media2:hover {
   background-image: url("../../images/Twiter2.svg");
 }
 
-.media3 {
+.logo-gallery .media3 {
   background-image: url("../../images/Pinterest.svg");
   margin-right: 110px;
 }
 
-.media3:hover {
+.logo-gallery .media3:hover {
   background-image: url("../../images/Pinterest2.svg");
 }
