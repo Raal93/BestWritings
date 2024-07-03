@@ -1,0 +1,102 @@
+footer {
+  background-color: var(--color_main_2);
+  background-image: url("../../images/Bg3.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+footer .lists ul {
+  list-style: none;
+  padding: 0;
+  margin: 25px 0 15px 0;
+}
+
+footer .lists ul > li > a {
+  font-size: 16px;
+  color: var(--color_btn_read_more_hover);
+  font-family: "Arial Narrow";
+  text-align: left;
+  text-decoration: none;
+  padding: 3px 0;
+}
+
+footer .lists ul > li > a:hover {
+  text-decoration: underline;
+}
+
+footer .line {
+  position: relative;
+}
+
+footer .line hr {
+  height: 3px;
+  background-color: var(--color_btn_read_more_hover);
+}
+
+footer .line .plus {
+  background-color: var(--color_btn_read_more_hover);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: calc(50% - 18px);
+  left: calc(50% - 18px);
+}
+
+footer .bottom-menu ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 15px 0;
+}
+
+footer .bottom-menu ul li {
+  font-size: 16px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: var(--color_btn_text);
+  font-weight: 500;
+  font-family: "Roboto_Medium";
+  text-align: center;
+  position: relative;
+}
+
+footer .bottom-menu ul li:not(:last-of-type) {
+  margin-right: 45px;
+}
+
+footer .bottom-menu ul li:not(:last-of-type)::after {
+  content: "";
+  display: block;
+  height: 12px;
+  width: 3px;
+  border-radius: 25%;
+  background: var(--color_btn_text);
+  position: absolute;
+  top: calc(50% - 6px);
+  right: -25px;
+}
+
+footer .bottom-menu ul li:hover {
+  color: #1b7fd0;
+  background: var(--color_btn_text);
+  box-shadow: 25px 0 0 0 var(--color_btn_text), -25px 0 0 0 var(--color_btn_text);
+}
+
+footer .terms {
+  font-size: 16px;
+  color: var(--color_btn_send_message_hover);
+  font-family: "Arial Narrow";
+  text-align: center;
+  margin-bottom: 25px;
+}
