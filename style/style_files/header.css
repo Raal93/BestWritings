@@ -80,3 +80,10 @@ header .login:hover::after {
 header .live_chat:hover::after {
   background-image: url(../../images/Chat2.svg);
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  header .phone {
+    display: flex;
+    justify-content: center;
+  }
+}

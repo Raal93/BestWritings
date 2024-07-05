@@ -1,50 +1,49 @@
-.baner{
+.baner {
   background-color: #eaeff5;
 }
 
-
-.baner .bg_img{
+.baner .bg_img {
   background-image: url(../../images/main_bg_img_heder.png);
   block-size: cover;
   background-position: center right;
   background-repeat: no-repeat;
 }
 
-.baner a img{
+.baner a img {
   margin: 25px 0;
 }
 
-.baner .block_h1{
+.baner .block_h1 {
   display: inline-block;
   text-align: center;
   width: 600px;
   height: 65px;
-  filter: drop-shadow(2px 3.464px 3.5px rgba(155,182,190,0.75));
+  filter: drop-shadow(2px 3.464px 3.5px rgba(155, 182, 190, 0.75));
   background-color: var(--color_btn_send_message_hover);
 }
 
-.baner .block_h1::before{
-  content: '';
+.baner .block_h1::before {
+  content: "";
   display: inline-block;
   width: 0;
-	height: 0;
-	border-top: 35px solid var(--color_btn_send_message_hover); 
-	border-right: 35px solid transparent;			
+  height: 0;
+  border-top: 35px solid var(--color_btn_send_message_hover);
+  border-right: 35px solid transparent;
   position: relative;
   top: 65px;
   right: 282.5px;
 }
-.baner .block_h1 h1{
+.baner .block_h1 h1 {
   margin: 0;
   position: relative;
   bottom: 24px;
 }
 
-.baner h3{
+.baner h3 {
   margin: 25px 0px 0px 55px;
 }
 
-.baner ul{
+.baner ul {
   padding-left: 55px;
 }
 
@@ -56,12 +55,12 @@
   font-weight: 500;
 }
 
-.baner ul li::marker{
+.baner ul li::marker {
   color: var(--color_main_1);
   font-size: 30px;
 }
 
-.baner .btn a{
+.baner .btn a {
   font-family: Roboto_Regular;
   text-decoration: none;
   font-size: 18px;
@@ -73,4 +72,38 @@
   text-align: center;
   width: 230px;
   margin: 10px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .baner .bg_img {
+    background-image: none;
+  }
+
+  .baner {
+    height: 600px;
+    background-image: url(../../images/main_bg_img_heder.png);
+    block-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
+
+  .baner ul li {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  .baner .btn a {
+    width: 210px;
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  .baner .block_h1 {
+    width: 550px;
+  }
+
+  .baner .block_h1::before {
+    right: 257.5px;
+  }
 }
