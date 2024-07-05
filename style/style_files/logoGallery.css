@@ -56,3 +56,13 @@
 .logo-gallery .media3:hover {
   background-image: url("../../images/Pinterest2.svg");
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .logo-gallery .mediaIcons div {
+    margin: 0 40px 0 0;
+  }
+
+  .logo-gallery .creditCards img {
+    margin-right: 10px;
+  }
+}

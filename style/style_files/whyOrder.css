@@ -57,3 +57,10 @@
   color: #ffffff;
   font-family: "Arial Narrow";
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .whyOrder .row-container {
+    width: 90%;
+    margin: auto;
+  }
+}

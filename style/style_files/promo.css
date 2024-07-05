@@ -197,3 +197,29 @@
 .promo .orderNow:hover::after {
   border-top: 18px solid var(--color_btn_order_now_hover);
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .promo .box-row-wrap {
+    padding: 0;
+  }
+
+  .promo .select-wrap {
+    width: auto;
+  }
+
+  .promo .select-wrap select {
+    width: 290px;
+  }
+
+  .promo .select-row {
+    padding: 0 0 0 25px;
+  }
+
+  .promo .totalPrice {
+    width: 290px;
+  }
+
+  .promo .orderNow {
+    width: 290px;
+  }
+}

@@ -10,7 +10,6 @@
   height: 110px;
   border-radius: 50%;
   background-repeat: no-repeat;
-  cursor: pointer;
 }
 
 .essayWriting h2 {
@@ -96,15 +95,20 @@
   font-family: "Roboto_Regular";
   text-align: center;
   border: none;
+  cursor: pointer;
+  transition: all linear 0.1s;
 
   margin-top: 25px;
 }
 
-.cards {
+.essayWriting .cards button:hover {
+  color: var(--color_btn_send_message);
+  background-color: var(--color_btn_send_message_hover);
 }
 
 .essayWriting .cards:hover {
   background-color: var(--color_btn_text);
+  cursor: pointer;
 }
 
 .essayWriting .cards:hover::after {
@@ -148,4 +152,26 @@
 
 .essayWriting .card4:hover .img-container {
   background-image: url(../../images/Element4_dark.svg);
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .essayWriting .cards {
+    padding: 10px 20px;
+  }
+
+  .essayWriting .card1 p,
+  .essayWriting .card2 p,
+  .essayWriting .card3 .p-container,
+  .essayWriting .card4 .p-container {
+    height: 180px;
+    padding: 0 20px;
+  }
+
+  .essayWriting .cards h4 {
+    margin: 5px;
+  }
+
+  .essayWriting .cards button {
+    margin-top: 5px;
+  }
 }

@@ -191,3 +191,18 @@
 .howItWorks .wrap6:hover .card {
   top: -330px;
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .howItWorks .card-wrapper:hover .card {
+    width: 400px;
+    right: -400px;
+  }
+
+  .howItWorks .card p {
+    font-size: 15px;
+  }
+
+  .howItWorks .card-wrapper .img-icon {
+    margin-bottom: 15px;
+  }
+}

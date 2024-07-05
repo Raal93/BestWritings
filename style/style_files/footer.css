@@ -110,12 +110,42 @@ footer .terms:hover {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1399px) {
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
   footer .bottom-menu ul li {
     padding: 0 13px;
   }
 
   footer .lists ul > li > a {
     font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  footer .lists .d-lg-manual {
+    width: 20%;
+    padding: 0 0 0 20px;
+  }
+
+  footer .lists ul > li > a {
+    font-size: 14px;
+  }
+
+  footer .bottom-menu ul {
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  footer .bottom-menu ul li {
+    padding: 0 13px;
+  }
+
+  footer .bottom-menu ul li.delete-line-lg::after {
+    display: none;
+  }
+
+  footer .terms {
+    font-size: 14px;
+    margin: 15px 0;
   }
 }
