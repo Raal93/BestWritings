@@ -40,6 +40,10 @@ nav ul li a:hover {
   box-shadow: -16px 0px 0px var(--color_btn_send_message_hover), 16px 0px 0px var(--color_btn_send_message_hover);
 }
 
+nav .goUpArrow {
+  display: none;
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
   nav ul li a {
     padding-left: 16px;
@@ -119,5 +123,24 @@ nav ul li a:hover {
 
   nav .hamburger {
     cursor: pointer;
+  }
+
+  nav .goUpArrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #013056;
+    border: 3px solid #789dbb;
+
+    position: fixed;
+    top: 3555px;
+    right: 120px;
+  }
+
+  nav .goUpArrow:hover {
+    box-shadow: 2px 2px 2px #b2d2ec, -2px -2px 2px #b2d2ec, -2px 2px 2px #b2d2ec, 2px -2px 2px #b2d2ec;
   }
 }
