@@ -87,3 +87,20 @@ header .live_chat:hover::after {
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 991px) {
+  header .logo-sm {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5px;
+  }
+
+  header .hamburger-sm {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+    cursor: pointer;
+  }
+}

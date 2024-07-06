@@ -144,3 +144,43 @@ nav .goUpArrow {
     box-shadow: 2px 2px 2px #b2d2ec, -2px -2px 2px #b2d2ec, -2px 2px 2px #b2d2ec, 2px -2px 2px #b2d2ec;
   }
 }
+
+@media screen and (max-width: 991px) {
+  nav {
+    height: auto;
+    padding: 5px 0;
+  }
+
+  nav .phone-sm {
+    display: flex;
+    justify-content: flex-start;
+    align-items: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  nav .phone-sm > span {
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
+
+  nav .phone-sm > span:hover,
+  nav .phone-sm > span:hover a {
+    font-weight: 400;
+    font-family: Roboto_Regular;
+  }
+
+  nav .phone-sm > span:first-child {
+    margin-bottom: 4px;
+  }
+
+  nav .phone-sm span,
+  nav .phone-sm a {
+    font-size: 18px;
+    color: #caddea;
+    font-weight: 250;
+    font-family: Roboto_Thin;
+    text-decoration: none;
+  }
+}
