@@ -9,6 +9,10 @@ body {
   box-sizing: border-box;
 }
 
+.container {
+  overflow: hidden;
+}
+
 :root {
   --color_main_1: #1b7fd0;
   --color_main_2: #013056;

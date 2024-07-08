@@ -93,14 +93,12 @@ header .live_chat:hover::after {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 5px;
   }
 
   header .hamburger-sm {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 5px;
     cursor: pointer;
   }
 }
