@@ -110,7 +110,7 @@ footer .terms:hover {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1399px) {
+@media screen and (max-width: 1399px) {
   footer .bottom-menu ul li {
     padding: 0 13px;
   }
@@ -120,7 +120,7 @@ footer .terms:hover {
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   footer .lists .d-lg-manual {
     width: 20%;
     padding: 0 0 0 20px;
@@ -148,4 +148,31 @@ footer .terms:hover {
     font-size: 14px;
     margin: 15px 0;
   }
+}
+
+@media screen and (max-width: 991px) {
+  footer .lists .d-lg-manual {
+    width: inherit;
+  }
+
+  footer .bottom-menu ul li {
+    margin: 2px 0;
+  }
+
+  footer .bottom-menu ul li.delete-line-lg::after {
+    display: block;
+  }
+
+  footer .bottom-menu ul li.delete-line-md::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 575px) {
+}
+
+@media screen and (max-width: 376px) {
 }

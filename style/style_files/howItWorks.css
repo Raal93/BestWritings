@@ -83,6 +83,7 @@
   font-weight: 500;
   font-family: "Roboto_Bold";
   margin: 0;
+  cursor: pointer;
 
   height: 65px;
   border-bottom: 2px solid #caddea;
@@ -120,6 +121,7 @@
   filter: drop-shadow(2px 3.464px 3.5px rgba(167, 192, 200, 0.75));
   background-color: var(--color_btn_text);
   padding: 20px 40px;
+  cursor: pointer;
 
   display: none;
 }
@@ -192,7 +194,7 @@
   top: -330px;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .howItWorks .card-wrapper:hover .card {
     width: 400px;
     right: -400px;
@@ -205,4 +207,41 @@
   .howItWorks .card-wrapper .img-icon {
     margin-bottom: 15px;
   }
+}
+
+@media screen and (max-width: 991px) {
+  .howItWorks .card-wrapper:hover .card {
+    width: 360px;
+    right: -360px;
+  }
+
+  .howItWorks .card p {
+    font-size: 14px;
+  }
+
+  .howItWorks .card-wrapper .img-icon {
+    width: 90px;
+    height: 90px;
+    min-height: 90px;
+    margin-bottom: 15px;
+  }
+
+  .howItWorks h4 span {
+    font-size: 55px;
+    margin: 0 10px 0 5px;
+  }
+
+  .howItWorks h4 {
+    font-size: 16px;
+    height: 65px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 575px) {
+}
+
+@media screen and (max-width: 376px) {
 }

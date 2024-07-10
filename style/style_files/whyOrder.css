@@ -58,9 +58,34 @@
   font-family: "Arial Narrow";
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .whyOrder .row-container {
     width: 90%;
     margin: auto;
   }
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 767px) {
+  .whyOrder .row-container {
+    width: 100%;
+  }
+
+  .whyOrder .card .number {
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 2px;
+  }
+
+  .whyOrder .card p {
+    margin: 12px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+}
+
+@media screen and (max-width: 376px) {
 }

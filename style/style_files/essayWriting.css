@@ -386,6 +386,68 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .essayWriting h2 {
+    padding: 10px 20px;
+  }
+
+  .essayWriting .header-p {
+    padding: 0 10px;
+    text-align: justify;
+    line-height: 18px;
+  }
+
+  .essayWriting .cards-sm:hover .card-hover {
+    width: 90%;
+    left: 5%;
+  }
+
+  .essayWriting .cards-sm .card-hover h4 {
+    margin: 30px 20px 20px 20px;
+  }
+
+  .essayWriting .card-sm-1 p,
+  .essayWriting .card-sm-2 p,
+  .essayWriting .card-sm-3 .p-container,
+  .essayWriting .card-sm-4 .p-container {
+    height: 180px;
+  }
+
+  .essayWriting .card-sm-1:hover .card-hover::after,
+  .essayWriting .card-sm-4:hover .card-hover::after {
+    content: "";
+    position: absolute;
+    top: -24px;
+    width: 0;
+    height: 0;
+    border-left: 22.5px solid transparent;
+    border-right: 22.5px solid transparent;
+    border-bottom: 24px solid #ffffff;
+    z-index: -1;
+  }
+
+  .essayWriting .card-sm-1:hover .card-hover::after {
+    left: 18px;
+  }
+
+  .essayWriting .card-sm-2:hover .card-hover::after {
+    left: 153px;
+  }
+
+  .essayWriting .card-sm-3:hover .card-hover::after {
+    right: 153px;
+  }
+
+  .essayWriting .card-sm-4:hover .card-hover::after {
+    right: 18px;
+  }
+
+  .essayWriting .talkBubble {
+    top: 40%;
+    left: 15%;
+  }
+}
+
 @media screen and (max-width: 575px) {
 }
 
