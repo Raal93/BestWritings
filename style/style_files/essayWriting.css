@@ -202,9 +202,8 @@
   }
 
   .essayWriting .cards-sm h4 {
-    height: 65px;
-    display: flex;
-    align-items: center;
+    margin-top: 40px;
+    height: 50px;
   }
 
   .essayWriting .cards-sm p,
@@ -263,6 +262,9 @@
     width: 90px;
     border-radius: 50%;
     background-color: #caddea;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
   }
 
   .essayWriting .cards-sm .card-hover {
@@ -273,24 +275,55 @@
   .essayWriting .cards-sm:hover .card-hover {
     height: 350px;
     position: absolute;
-    width: 600px;
+    width: 560px;
     top: 125px;
+    left: 80px;
     filter: drop-shadow(2px 3.464px 3.5px rgba(167, 192, 200, 0.75));
     background-color: #ffffff;
     padding: 0 40px;
+    overflow: visible;
+    z-index: 3;
   }
 
-  .essayWriting .card-sm-1:hover .card-hover {
-    left: 60px;
+  .essayWriting .card-sm-2:hover .card-hover::after,
+  .essayWriting .card-sm-3:hover .card-hover::after {
+    content: "";
+    position: absolute;
+    top: -24px;
+    width: 0;
+    height: 0;
+    border-left: 22.5px solid transparent;
+    border-right: 22.5px solid transparent;
+    border-bottom: 24px solid #ffffff;
+    z-index: -1;
   }
-  .essayWriting .card-sm-2:hover .card-hover {
-    left: 60px;
+
+  .essayWriting .card-sm-2:hover .card-hover::after {
+    left: 168px;
   }
-  .essayWriting .card-sm-3:hover .card-hover {
-    left: 60px;
+  .essayWriting .card-sm-3:hover .card-hover::after {
+    right: 168px;
   }
-  .essayWriting .card-sm-4:hover .card-hover {
-    left: 60px;
+
+  .essayWriting .card-sm-1:hover .card-hover::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 24px solid #ffffff;
+    border-right: 30px solid transparent;
+    position: absolute;
+    top: -24px;
+    left: 0;
+  }
+  .essayWriting .card-sm-4:hover .card-hover::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 24px solid #ffffff;
+    border-left: 30px solid transparent;
+    position: absolute;
+    top: -24px;
+    right: 0;
   }
 
   .essayWriting .card-sm-1 .img-container {
@@ -316,6 +349,40 @@
   }
   .essayWriting .card-sm-4:hover .img-container {
     background-image: url("../../images/Element4_dark.svg");
+  }
+
+  .essayWriting .talkBubble {
+    width: 360px;
+    height: 160px;
+    background: rgba(202, 221, 234, 0.6);
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    filter: drop-shadow(2px 3.464px 3.5px rgba(167, 192, 200, 0.75));
+    z-index: 1;
+  }
+
+  .essayWriting .talkBubble::before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 52px;
+    width: 0;
+    height: 0;
+    border-top: 26px solid transparent;
+    border-right: 52px solid rgba(202, 221, 234, 0.6);
+    border-bottom: 26px solid transparent;
+  }
+
+  .essayWriting .talkBubble p {
+    margin: 40px;
+    color: var(--color_main_1);
+    font-family: "Roboto_Regular";
+    font-size: 16px;
   }
 }
 
