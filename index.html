@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best Writings</title>
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    /> -->
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
@@ -175,7 +181,7 @@
               <span class="part3">USD</span>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-lg-4">
+          <div class="col-12 col-sm-6 col-lg-4 orderNow-container">
             <div class="orderNow">ORDER NOW</div>
           </div>
         </div>
@@ -404,8 +410,8 @@
               <h2>how it works</h2>
             </div>
           </div>
-          <div class="row content">
-            <div class="col-md-6 col-lg-7">
+          <div class="row content-md">
+            <div class="col-0 d-none col-md-6 d-md-block col-lg-7">
               <div class="card-wrapper wrap1">
                 <h4><span>1</span>make your way to the order and complete</h4>
                 <div class="card">
@@ -497,6 +503,99 @@
               </div>
             </div>
           </div>
+          <div class="row content-sm">
+            <div class="col-12 col-md-0 d-md-none">
+              <div class="card-wrapper wrap1">
+                <h4 onclick="toggleCollapse(1)"><span>1</span>make your way to the order and complete</h4>
+                <div class="card collapse" id="collapseContent1">
+                  <div class="img-icon">
+                    <img src="./images/Works1.svg" alt="icon" />
+                  </div>
+                  <h6>the form with a description of your requirements</h6>
+                  <p>
+                    Take care to provide all your contact information correctly e.g. your telephone number and email address. We remain in constant
+                    contact with customers for the duration of their project.
+                  </p>
+                  <p>
+                    We will use your telephone number and email as our main means of contacting you. Be careful to provide accurate information and
+                    describe your requirements in full. Our writer will precisely adhere to the instructions on the form.
+                  </p>
+                </div>
+              </div>
+              <div class="card-wrapper wrap2">
+                <h4 onClick="toggleCollapse(2)"><span>2</span>Continue to the payment page</h4>
+                <div class="card collapse" id="collapseContent2">
+                  <div class="img-icon">
+                    <img src="./images/Works2.svg" alt="icon" />
+                  </div>
+                  <p>
+                    We calculate the deadline from the minute we receive your payment. The writer we allocate will only begin conducting research
+                    after your payment has been received. We guarantee a full refund, which means we will give you your money back if you are in any
+                    way dissatisfied with the service you receive. We may ask you for identification verification. This is our method of ensuring you
+                    are actually the person who ordered the paper.
+                  </p>
+                </div>
+              </div>
+              <div class="card-wrapper wrap3">
+                <h4 onClick="toggleCollapse(3)"><span>3</span>Monitor your email for confirmation of your order and save</h4>
+                <div class="card collapse" id="collapseContent3">
+                  <div class="img-icon">
+                    <img src="./images/Works3.svg" alt="icon" />
+                  </div>
+                  <h6>this in case you need to refer to it in the future</h6>
+                  <p>
+                    We will confirm your order by email and provide all the information needed to ensure our joint cooperation is a mutually
+                    beneficial one. In this, you will find answers to all your questions; it will tell you how to communicate with your writer and our
+                    support team and show you how to add any further files/materials if you need to. You should store this information in case you
+                    need to refer to it in the future.
+                  </p>
+                </div>
+              </div>
+              <div class="card-wrapper wrap4">
+                <h4 onClick="toggleCollapse(4)"><span>4</span>Use your personal account area to contact your writer and our support personnel</h4>
+                <div class="card collapse" id="collapseContent4">
+                  <div class="img-icon">
+                    <img src="./images/Works4.svg" alt="icon" />
+                  </div>
+                  <h6>keep a regular eye on your email fo status reports</h6>
+                  <p>
+                    You can send messages to your writer if you have any queries and he/she will be on hand to respond to you via the same channel.
+                    You may update the information you originally provided, but if you make changes to the instructions, the size of your assignment,
+                    the service level, the deadline or the type of paper, you may be asked to pay an additional fee to allow us to handle your new
+                    requirements. Don't panic if you don't receive an immediate response from your writer. They may not check their messages
+                    continuously, but they will be working on your paper.
+                  </p>
+                </div>
+              </div>
+              <div class="card-wrapper wrap5">
+                <h4 onClick="toggleCollapse(5)"><span>5</span>Use the link from our email to download your paper</h4>
+                <div class="card collapse" id="collapseContent5">
+                  <div class="img-icon">
+                    <img src="./images/Works5.svg" alt="icon" />
+                  </div>
+                  <p>
+                    Monitor your email as the deadline gets close. We will notify you when your order is complete and our email will have a link to
+                    your personal account area where you can download your paper. Alternatively, we can send your work by email if you have difficulty
+                    downloading it.
+                  </p>
+                </div>
+              </div>
+              <div class="card-wrapper wrap6">
+                <h4 onClick="toggleCollapse(6)"><span>6</span>Give us feedback!</h4>
+                <div class="card collapse" id="collapseContent6">
+                  <div class="img-icon">
+                    <img src="./images/Works6.svg" alt="icon" />
+                  </div>
+                  <h6>the form with a description of your requirements</h6>
+                  <p>
+                    Let us know what you think of your paper once you have reviewed it. Our email will contain a link to our customer satisfaction
+                    survey form. Please feel free to fill it in. You may also request revisions within two weeks following the deadline. Revisions
+                    will be free unless you modify your original instructions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="row">
             <div class="col-12 orderNow-wrapper">
               <div class="orderNow">ORDER NOW</div>
@@ -533,7 +632,7 @@
       <div class="container-fluid">
         <div class="container">
           <div class="row g-xl-1 lists">
-            <div class="col-3 d-lg-manual">
+            <div class="col-0 d-none col-md-3 d-md-block d-lg-manual col-xl-2">
               <ul>
                 <li><a href="#">Site map</a></li>
                 <li><a href="#">Free essays</a></li>
@@ -546,7 +645,7 @@
                 <li><a href="#">Do My Essay</a></li>
               </ul>
             </div>
-            <div class="col-3 d-lg-manual">
+            <div class="col-0 d-none col-md-3 d-md-block d-lg-manual col-xl-2">
               <ul>
                 <li><a href="#">Do My Paper</a></li>
                 <li><a href="#">Editing Service</a></li>
@@ -559,7 +658,7 @@
                 <li><a href="#">Essay Papers to Buy</a></li>
               </ul>
             </div>
-            <div class="col-3 d-lg-manual">
+            <div class="col-0 d-none col-md-3 d-md-block d-lg-manual col-xl-2">
               <ul>
                 <li><a href="#">Essay Service</a></li>
                 <li><a href="#">Essay Writer</a></li>
@@ -572,7 +671,7 @@
                 <li><a href="#">Essays Order</a></li>
               </ul>
             </div>
-            <div class="col-3 d-lg-manual">
+            <div class="col-0 d-none col-md-3 d-md-block d-lg-manual col-xl-2">
               <ul>
                 <li><a href="#">Essays to Buy</a></li>
                 <li><a href="#">Essays Written</a></li>
@@ -585,7 +684,7 @@
                 <li><a href="#">Online Research Paper</a></li>
               </ul>
             </div>
-            <div class="col-2 cl-md-0 d-md-none d-lg-block d-lg-manual">
+            <div class="col-0 d-none d-lg-block d-lg-manual col-xl-2">
               <ul>
                 <li><a href="#">Online Term Paper</a></li>
                 <li><a href="#">Online Writing</a></li>
@@ -598,7 +697,7 @@
                 <li><a href="#">Paper Service</a></li>
               </ul>
             </div>
-            <div class="col-2 col-md-0 d-md-none d-xl-block">
+            <div class="col-0 d-none d-xl-block col-xl-2">
               <ul>
                 <li><a href="#">Paper Writer</a></li>
                 <li><a href="#">Paper Writing</a></li>
@@ -613,7 +712,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-12 line">
+            <div class="col-0 d-none col-md-12 d-md-block line">
               <hr />
               <div class="plus">
                 <img src="./images/Rectangle 15 copy.png" alt="plus-icon" />
@@ -626,7 +725,7 @@
                 <li>BUSINESS</li>
                 <li>ECONOMICS</li>
                 <li>INFORMATIE</li>
-                <li>LITERATURE</li>
+                <li class="delete-line-sm">LITERATURE</li>
                 <li class="delete-line-md">MANAGEMENT</li>
                 <li>POLITICAL</li>
                 <li class="delete-line-lg">PSYCHOLOGY</li>
@@ -640,5 +739,12 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      function toggleCollapse(number) {
+        var content = document.getElementById("collapseContent" + number);
+        content.classList.toggle("show");
+      }
+    </script>
   </body>
 </html>

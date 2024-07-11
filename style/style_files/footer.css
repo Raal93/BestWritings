@@ -140,19 +140,19 @@ footer .terms:hover {
     padding: 0 13px;
   }
 
-  footer .bottom-menu ul li.delete-line-lg::after {
-    display: none;
-  }
-
   footer .terms {
     font-size: 14px;
     margin: 15px 0;
+  }
+
+  footer .bottom-menu ul li.delete-line-lg::after {
+    display: none;
   }
 }
 
 @media screen and (max-width: 991px) {
   footer .lists .d-lg-manual {
-    width: inherit;
+    width: 25%;
   }
 
   footer .bottom-menu ul li {
@@ -169,6 +169,17 @@ footer .terms:hover {
 }
 
 @media screen and (max-width: 767px) {
+  footer .bottom-menu ul li.delete-line-sm::after {
+    display: none;
+  }
+
+  footer .bottom-menu ul li.delete-line-md::after {
+    display: block;
+  }
+
+  footer .bottom-menu ul li.delete-line-lg::after {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 575px) {
