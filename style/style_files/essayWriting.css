@@ -1,6 +1,8 @@
 .essayWriting {
   background-color: #f4f6fa;
-  background-image: url(../../images/Bg2.png);
+  background-image: url(../../images/Bg2.svg);
+  background-position: center center;
+  background-size: 500%;
   background-repeat: no-repeat;
 }
 

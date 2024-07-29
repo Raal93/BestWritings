@@ -4,7 +4,7 @@
 
 .baner .bg_img {
   background-image: url(../../images/main_bg_img_heder.png);
-  block-size: cover;
+  background-size: cover;
   background-position: center right;
   background-repeat: no-repeat;
 }
@@ -116,8 +116,8 @@
 
   .baner {
     background-image: url(../../images/Bg2.svg);
-    background-size: 500% 100%;
-    background-position: top -250px center;
+    background-size: 400%;
+    background-position: 25% center;
     background-repeat: no-repeat;
   }
 }
@@ -227,6 +227,7 @@
 @media screen and (max-width: 575px) {
   .baner {
     padding-bottom: 20px;
+    background-size: 600%;
   }
 
   .baner .article-small {

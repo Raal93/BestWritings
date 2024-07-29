@@ -1,7 +1,17 @@
 .howItWorks {
-  background-image: url(../../images/Bg1.svg);
+  background-image: url(../../images/Bg2.svg);
   background-repeat: no-repeat;
-  background-position: bottom -10% center;
+  background-position: right 50% center;
+  background-size: 400%;
+  position: relative;
+}
+
+.howItWorks .bg {
+  position: absolute;
+  width: calc(100% - 15px);
+  height: 100%;
+  background: #ffffff;
+  opacity: 0.5;
 }
 
 .howItWorks h2 {
@@ -55,7 +65,7 @@
   border-right: 18px solid transparent;
 
   position: absolute;
-  bottom: -18px;
+  bottom: -17px;
   left: 0;
 }
 
@@ -238,6 +248,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .howItWorks {
+    background-size: 600%;
+  }
+
   .howItWorks .content-sm h4 {
     width: 100%;
     font-size: 18px;
@@ -308,7 +322,7 @@
   }
 
   .howItWorks .content-sm .show {
-    height: 350px;
+    height: 380px;
     padding: 10px 40px 20px 40px;
   }
 
@@ -340,6 +354,9 @@
 }
 
 @media screen and (max-width: 575px) {
+  .howItWorks {
+    background-size: 900%;
+  }
 }
 
 @media screen and (max-width: 376px) {
