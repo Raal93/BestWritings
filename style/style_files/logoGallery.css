@@ -89,7 +89,19 @@
 }
 
 @media screen and (max-width: 575px) {
+  .logo-gallery .mediaIcons div {
+    height: 40px;
+    width: 40px;
+    margin: 0 30px;
+  }
 }
 
 @media screen and (max-width: 376px) {
+  .logo-gallery .mediaIcons {
+    justify-content: space-evenly;
+  }
+
+  .logo-gallery .mediaIcons div {
+    margin: 0 5px;
+  }
 }

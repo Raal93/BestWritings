@@ -183,6 +183,31 @@ footer .terms:hover {
 }
 
 @media screen and (max-width: 575px) {
+  footer .bottom-menu ul li::after {
+    content: "" !important;
+    display: block !important;
+    height: 12px !important;
+    width: 3px !important;
+    border-radius: 25% !important;
+    background: var(--color_btn_text) !important;
+
+    position: absolute !important;
+    top: calc(50% - 6px) !important;
+    right: 0 !important;
+  }
+
+  footer .bottom-menu ul li::before {
+    content: "";
+    display: block;
+    height: 12px;
+    width: 3px;
+    border-radius: 25%;
+    background: var(--color_btn_text);
+
+    position: absolute;
+    top: calc(50% - 6px);
+    left: -3px;
+  }
 }
 
 @media screen and (max-width: 376px) {
