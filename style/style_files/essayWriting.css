@@ -296,7 +296,7 @@
     height: 0;
     border-left: 22.5px solid transparent;
     border-right: 22.5px solid transparent;
-    border-bottom: 24px solid #ffffff;
+    border-bottom: 26px solid #ffffff;
     z-index: -1;
   }
 
@@ -311,7 +311,7 @@
     content: "";
     width: 0;
     height: 0;
-    border-bottom: 24px solid #ffffff;
+    border-bottom: 26px solid #ffffff;
     border-right: 30px solid transparent;
     position: absolute;
     top: -24px;
@@ -321,7 +321,7 @@
     content: "";
     width: 0;
     height: 0;
-    border-bottom: 24px solid #ffffff;
+    border-bottom: 26px solid #ffffff;
     border-left: 30px solid transparent;
     position: absolute;
     top: -24px;
@@ -419,7 +419,7 @@
   .essayWriting .card-sm-4:hover .card-hover::after {
     content: "";
     position: absolute;
-    top: -24px;
+    top: -23px;
     width: 0;
     height: 0;
     border-left: 22.5px solid transparent;
@@ -429,19 +429,19 @@
   }
 
   .essayWriting .card-sm-1:hover .card-hover::after {
-    left: 18px;
+    left: 3.7%;
   }
 
   .essayWriting .card-sm-2:hover .card-hover::after {
-    left: 153px;
+    left: 31.5%;
   }
 
   .essayWriting .card-sm-3:hover .card-hover::after {
-    right: 153px;
+    right: 31.5%;
   }
 
   .essayWriting .card-sm-4:hover .card-hover::after {
-    right: 18px;
+    right: 3.7%;
   }
 
   .essayWriting .talkBubble {
@@ -451,7 +451,84 @@
 }
 
 @media screen and (max-width: 575px) {
+  .essayWriting .talkBubble {
+    width: 280px;
+    left: 20%;
+    top: 50%;
+  }
+
+  .essayWriting .cards-sm .card-hover h4 {
+    font-size: 16px;
+  }
+
+  .essayWriting .cards-sm .card-hover p,
+  .essayWriting .cards-sm .card-hover li {
+    font-size: 12px;
+  }
+
+  .essayWriting .cards-sm .card-hover > p,
+  .essayWriting .cards-sm .card-hover .p-container {
+    height: 195px;
+    overflow: visible;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .essayWriting .h510 {
+    height: 540px;
+  }
+
+  .essayWriting .cards-sm:hover .card-hover {
+    height: 380px;
+  }
+
+  .essayWriting .cards-sm .card-hover > p,
+  .essayWriting .cards-sm .card-hover .p-container {
+    height: 220px;
+  }
 }
 
 @media screen and (max-width: 376px) {
+  .essayWriting .cards-sm .img-container {
+    width: 70px;
+    height: 70px;
+  }
+
+  .essayWriting .cards-sm .card-hover > p,
+  .essayWriting .cards-sm .card-hover .p-container {
+    margin-bottom: 15px;
+  }
+
+  .essayWriting .cards-sm:hover .card-hover {
+    top: 104px;
+    padding: 0 20px;
+  }
+
+  .essayWriting .card-sm-1:hover .card-hover::after {
+    left: 0;
+  }
+
+  .essayWriting .card-sm-2:hover .card-hover::after {
+    left: 28%;
+  }
+
+  .essayWriting .card-sm-3:hover .card-hover::after {
+    right: 28%;
+  }
+
+  .essayWriting .card-sm-4:hover .card-hover::after {
+    right: 0;
+  }
+
+  .essayWriting .cards-sm .card-hover h4 {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+
+  .essayWriting .talkBubble {
+    width: 200px;
+    left: 25%;
+    top: 40%;
+    height: 200px;
+  }
 }
