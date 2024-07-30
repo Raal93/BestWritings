@@ -1,5 +1,4 @@
 .whyOrder {
-  /* height: 560px; */
   background-image: url(../../images/Bg-whyOrder.png);
 }
 
@@ -85,7 +84,17 @@
 }
 
 @media screen and (max-width: 575px) {
+  .whyOrder h2 {
+    line-height: 29px;
+    padding: 20px;
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 376px) {
+  .whyOrder h2 {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 15px 10px;
+  }
 }
