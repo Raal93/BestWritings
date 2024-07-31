@@ -1,5 +1,6 @@
 /*? import settings */
 @import url(./settings.css);
+@import url(./style_files/default.css);
 
 /*! imports blocks */
 @import url(./style_files/header.css);
@@ -11,3 +12,4 @@
 @import url(./style_files/howItWorks.css);
 @import url(./style_files/logoGallery.css);
 @import url(./style_files/footer.css);
+@import url(./style_files/blogpostArticle.css);
