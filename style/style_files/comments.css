@@ -1,0 +1,144 @@
+.comments {
+  background-color: #f4f6fa;
+  padding-bottom: 40px;
+}
+
+.comments ._comments-header {
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.comments .comment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.comments .comment-container.last {
+  margin-bottom: 5px;
+}
+
+.comments .userPhoto-container {
+  width: 95px;
+  height: 95px;
+  flex-shrink: 0;
+  filter: drop-shadow(2px 3.464px 3.5px rgba(167, 192, 200, 0.75));
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.comments .userPhoto-container img {
+  height: 75%;
+  width: auto;
+}
+
+.comments .text-container {
+  width: 100%;
+}
+
+.comments .info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comments .comment-info .firstName,
+.comments .comment-info .surname,
+.comments .comment-info .city {
+  font-size: 16px;
+  color: #2e3847;
+  font-weight: bold;
+  font-family: "Arial";
+  margin-right: 3px;
+}
+
+.comments .comment-info .datum,
+.comments .comment-info .time {
+  font-size: 14px;
+  color: #9ea5ad;
+  font-weight: normal;
+  font-family: "Arial";
+  margin-right: 3px;
+}
+
+.comments .comment-info .datum {
+  margin-left: 20px;
+}
+
+.comments .reactions {
+  display: flex;
+  align-items: center;
+}
+
+.comments .reactions .reply {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #1b7fd0;
+  font-weight: bold;
+  font-family: "Arial";
+  text-align: left;
+  margin-right: 5px;
+}
+
+.comments .reactions .reply-arrow {
+  margin-right: 25px;
+}
+
+.comments .reactions .like-counter {
+  margin-left: 5px;
+  font-size: 16px;
+  color: #1b7fd0;
+  font-family: "Arial";
+}
+
+.comments .commentText-container p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #2e3847;
+  font-family: "Arial";
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.comments .commentText-container .continueReading {
+  font-size: 16px;
+  color: #1b7fd0;
+  text-decoration: underline;
+  font-family: "Arial";
+  cursor: pointer;
+  display: block;
+}
+
+.comments .answer-comment {
+  padding-left: 110px;
+}
+
+.comments .answer-comment .continueReading {
+  display: inline-block;
+}
+
+.comments .readMore {
+  width: 100%;
+  text-align: right;
+}
+
+.comments .readMore a {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #1b7fd0;
+  font-weight: 400;
+  font-family: "Roboto_Regular";
+  text-align: center;
+}
+
+.comments .readMore a:hover {
+  text-decoration: underline;
+}

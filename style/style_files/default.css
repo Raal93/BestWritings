@@ -27,6 +27,7 @@
   filter: drop-shadow(2px 3.464px 3.5px rgba(155, 182, 190, 0.75));
   background-color: var(--color_btn_send_message_hover);
   position: relative;
+  padding: 15px 30px;
 }
 
 ._triangleBottom-big::after {
