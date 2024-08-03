@@ -1,0 +1,50 @@
+.leaveComment-form {
+  background-color: #f4f6fa;
+  padding-top: 40px;
+  padding-bottom: 65px;
+}
+
+.leaveComment-form .commentForm-container {
+  filter: drop-shadow(2px 3.464px 3.5px rgba(167, 192, 200, 0.75));
+  background-color: #ffffff;
+  text-align: right;
+}
+
+.leaveComment-form form {
+  padding: 25px 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.leaveComment-form .name {
+  width: 49%;
+  margin-right: 1%;
+}
+
+.leaveComment-form .email {
+  width: 49%;
+  margin-left: 1%;
+}
+
+.leaveComment-form .subject {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.leaveComment-form .comment {
+  width: 100%;
+  height: 185px;
+  margin-top: 25px;
+  box-sizing: border-box; /* Upewnij się, że padding jest uwzględniany w wysokości */
+  padding-top: 10px; /* Wypełnienie górne */
+  padding-bottom: 10px; /* Wypełnienie dolne */
+  font-size: 16px; /* Przykładowa wielkość czcionki */
+}
+
+.leaveComment-form form button {
+  margin-left: auto;
+  margin-top: 20px;
+}
