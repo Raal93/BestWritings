@@ -40,16 +40,14 @@
   width: 100%;
 }
 
-.comments .info-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.comments .commentAutor,
+.comments .commentDatum {
+  display: inline-block;
 }
 
-.comments .comment-info .firstName,
-.comments .comment-info .surname,
-.comments .comment-info .city {
+.comments .commentAutor .firstName,
+.comments .commentAutor .surname,
+.comments .commentAutor .city {
   font-size: 16px;
   color: #2e3847;
   font-weight: bold;
@@ -57,8 +55,8 @@
   margin-right: 3px;
 }
 
-.comments .comment-info .datum,
-.comments .comment-info .time {
+.comments .commentDatum .datum,
+.comments .commentDatum .time {
   font-size: 14px;
   color: #9ea5ad;
   font-weight: normal;
@@ -66,16 +64,14 @@
   margin-right: 3px;
 }
 
-.comments .comment-info .datum {
-  margin-left: 20px;
-}
-
-.comments .reactions {
+.comments ._reactions {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
-.comments .reactions .reply {
+.comments ._reactions .reply {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -86,11 +82,11 @@
   margin-right: 5px;
 }
 
-.comments .reactions .reply-arrow {
+.comments ._reactions .reply-arrow {
   margin-right: 25px;
 }
 
-.comments .reactions .like-counter {
+.comments ._reactions .like-counter {
   margin-left: 5px;
   font-size: 16px;
   color: #1b7fd0;
@@ -140,4 +136,65 @@
 
 .comments .readMore a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1399px) {
+}
+
+@media screen and (max-width: 1199px) {
+}
+
+@media screen and (max-width: 991px) {
+  .comments .answer-comment {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 575px) {
+  .comments h2 {
+    text-align: center;
+  }
+
+  .comments .userPhoto-container {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  .comments .answer-comment {
+    padding-left: 60px;
+  }
+
+  .comments ._reactions {
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .comments .commentAutor .firstName,
+  .comments .commentAutor .surname,
+  .comments .commentAutor .city {
+    font-size: 14px;
+  }
+
+  .comments .commentDatum .datum,
+  .comments .commentDatum .time {
+    font-size: 12px;
+  }
+
+  .comments .commentText-container .continueReading {
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+  }
+
+  .comments .comment-container {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 376px) {
 }

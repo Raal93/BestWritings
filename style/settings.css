@@ -85,6 +85,7 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
 }
+
 h3 {
   font-family: Roboto_Medium;
   font-weight: 500;
@@ -97,6 +98,20 @@ h4 {
   font-size: 18px;
   color: var(--color_h4);
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
 }
 
 p.text {

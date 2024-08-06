@@ -1,6 +1,15 @@
 ._triangleBottom-orderNow {
   position: relative;
   background-color: var(--color_btn_order_now);
+  font-size: 22px;
+  text-transform: uppercase;
+  color: var(--color_btn_text);
+  font-weight: 400;
+  font-family: "Roboto_Regular";
+  text-align: center;
+  padding: 3px 40px;
+  letter-spacing: 1px;
+  border: none;
 }
 
 ._triangleBottom-orderNow::after {
@@ -42,13 +51,19 @@
   left: 0;
 }
 
+@media screen and (max-width: 575px) {
+  ._triangleBottom-big {
+    padding: 10px 20px;
+  }
+}
+
 ._triangleBottom-middle {
   filter: drop-shadow(2px 3.464px 3.5px rgba(167, 192, 200, 0.75));
   position: relative;
   background-color: var(--color_main_1);
-  height: 40px;
-  line-height: 42px;
+  padding: 7px 5px;
 }
+
 ._triangleBottom-middle::after {
   content: "";
   width: 0;
@@ -185,4 +200,16 @@ h3.mainColor-big {
   font-family: "Roboto_Medium";
   padding: 15px;
   text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  h3.mainColor-big {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  ._d-xs-none {
+    display: none;
+  }
 }
