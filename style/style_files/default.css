@@ -1,3 +1,9 @@
+._active-mainNav {
+  background-color: var(--color_btn_send_message_hover);
+  color: var(--color_btn_text_hover);
+  box-shadow: -16px 0px 0px var(--color_btn_send_message_hover), 16px 0px 0px var(--color_btn_send_message_hover);
+}
+
 ._triangleBottom-orderNow {
   position: relative;
   background-color: var(--color_btn_order_now);

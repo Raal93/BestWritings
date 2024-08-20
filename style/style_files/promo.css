@@ -1,5 +1,5 @@
 .promo {
-  height: 300px;
+  padding: 15px 0;
   background-image: url(../../images/main_bg_prise.png);
 }
 
@@ -198,6 +198,24 @@
 
 .promo .orderNow:hover::after {
   border-top: 18px solid var(--color_btn_order_now_hover);
+}
+
+.promo .btn {
+  display: inline-block;
+}
+
+.promo .btn a {
+  font-family: Roboto_Regular;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 42px;
+  color: var(--color_btn_read_more_hover);
+  display: inline-block;
+  border: 2px solid var(--color_btn_read_more_hover);
+  font-weight: 400;
+  text-align: center;
+  width: 250px;
+  margin: 10px;
 }
 
 @media screen and (max-width: 1199px) {

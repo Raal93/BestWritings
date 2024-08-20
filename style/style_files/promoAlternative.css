@@ -1,0 +1,90 @@
+.promoAlternative {
+  padding: 15px 0;
+  background-image: url(../../images/main_bg_prise.png);
+}
+
+.promoAlternative .orderNow {
+  line-height: 40px;
+  width: 310px;
+  background-color: var(--color_btn_order_now);
+  color: var(--color_btn_text);
+  font-family: "Roboto_Regular";
+  text-transform: uppercase;
+  font-size: 26px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.promoAlternative .orderNow::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 18px solid var(--color_btn_order_now);
+  border-right: 18px solid transparent;
+
+  position: absolute;
+  bottom: -17px;
+  left: 0;
+}
+
+.promoAlternative .orderNow:hover {
+  background: var(--color_btn_order_now_hover);
+}
+
+.promoAlternative .orderNow:hover::after {
+  border-top: 18px solid var(--color_btn_order_now_hover);
+}
+
+.promoAlternative .btn {
+  display: inline-block;
+}
+
+.promoAlternative .btn a {
+  font-family: Roboto_Regular;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 42px;
+  color: var(--color_btn_read_more_hover);
+  display: inline-block;
+  border: 2px solid var(--color_btn_read_more_hover);
+  font-weight: 400;
+  text-align: center;
+  width: 250px;
+  margin: 10px;
+}
+
+.promoAlternative .btn a:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 1199px) {
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 767px) {
+  .promoAlternative .btn a {
+    font-size: 18px;
+    width: 250px;
+    margin: 10px 0;
+  }
+
+  .promoAlternative .btn:nth-child(n) {
+    margin-right: 5px;
+  }
+
+  .promoAlternative .btn:nth-child(2n) {
+    margin-right: 0;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+}
+
+@media screen and (max-width: 376px) {
+}
